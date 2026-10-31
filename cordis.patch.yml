@@ -1,0 +1,4 @@
+# 手机桥：在宿主进程内注册 /mobile/v1 路由，把会话提供给原生客户端。
+- insert:
+    - id: mobile-bridge
+      name: dsh-mobile-bridge

@@ -1,0 +1,23 @@
+{
+  "name": "dsh-mobile-bridge",
+  "version": "0.1.0",
+  "description": "Hands a DeepSeek Harness session to a native mobile client over /mobile/v1",
+  "type": "module",
+  "main": "lib/index.js",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "dsh": {
+    "engines": {
+      "dsh": ">=0.2.1-rc.2"
+    },
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml"
+  ]
+}
