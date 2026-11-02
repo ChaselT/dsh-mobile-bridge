@@ -1,6 +1,6 @@
 {
   "name": "dsh-mobile-bridge",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Hands a DeepSeek Harness session to a native mobile client over /mobile/v1",
   "type": "module",
   "main": "lib/index.js",
